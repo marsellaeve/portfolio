@@ -55,11 +55,12 @@
     
             <nav class="row header-nav-wrap">
                 <ul class="header-nav">
-                    <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
+                    <li><a class="smoothscroll" href="#home" title="Intro">Home</a></li>
                     <li><a class="smoothscroll" href="#about" title="About">About</a></li>
-                    <li><a class="smoothscroll" href="#services" title="Services">Services</a></li>
-                    <li><a class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
-                    <li><a href="mailto:#0" title="Contact us">Say Hello</a></li>
+                    <li><a class="smoothscroll" href="#experiences" title="Experiences">Experiences</a></li>
+                    <li><a class="smoothscroll" href="#expertise" title="Expertise">Expertise</a></li>
+                    <li><a class="smoothscroll" href="#portfolios" title="Portfolios">Portfolios</a></li>
+                    <li><a class="smoothscroll" href="#contact-me" title="Contact us">Say Hello</a></li>
                 </ul>
             </nav> <!-- end header-nav-wrap -->
 
@@ -74,7 +75,7 @@
 
     <!-- hero
     ================================================== -->
-    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-natural-width=3000 data-natural-height=2000 data-position-y=center data-image-src="images/gedung.jpg">
+    <section id="home" class="s-hero target-section" data-parallax="scroll" data-natural-width=3000 data-natural-height=2000 data-position-y=center data-image-src="images/gedung.jpg">
 
         <div class="row hero-content">
 
@@ -135,43 +136,43 @@
                     <h3 data-aos="fade-up">Profile</h3>
 
                     <p data-aos="fade-up">
-                        Hello! My name is Evelyn and I enjoy creating things that live on the internet. I have a special interest in front end development and ui / ux design since 2020.<br/><br/>
+                        Hello! My name is Evelyn and I enjoy creating things that live on the internet. I have a special interest in front end development and ui / ux design.<br/><br/>
                         Fast-forward to today, and I’ve had the privilege of working at several startup. My main focus today is building responsive websites whether on mobile, tabs, or desktop. Here are a few technologies I’ve been working with recently:
-                        <li>HTML, CSS, JS</li>
-                        <li>ReactJS</li>
-                        <li>Typescript</li>
-                        <li>PHP</li>
+                        <li>HTML, CSS (Bootstrap, Ant Design)</li>
+                        <li>Javascript (ReactJS, Typescript, NextJS, Ajax)</li>
+                        <li>PHP (Laravel, FuelPHP, CodeIgniter)</li>
+                        <li>UI/UX Design: Figma & Adobe XD</li>
                     </p>
                 </div>
             </div>
 
         </div> <!-- end s-about__section--profile -->
 
-        <div class="s-about__section">
+        <div class="s-about__section" id="experiences" style="padding-top: 30px;">
 
             <div class="row">
                 <div class="column">
-                    <h3 data-aos="fade-up">Career</h3>
+                    <h3 data-aos="fade-up">Experiences</h3>
                 </div>
             </div>
 
-            <div class="row block-large-1-2 block-900-full work-positions">
+            <div class="row block-large-full work-positions">
 
                 <div class="column" data-aos="fade-up">
                     <div class="position">
                         <div class="position__header">
                             <h6>
-                                <span class="position__co">Shopee</span>
+                                <span class="position__co">Shopee</span><br/>
                                 <span class="position__pos">Software Engineer, Front End - Games and Marketing</span>
                             </h6>
                             <div class="position__timeframe">
                                 Feb 22 - present
                             </div>
                         </div>
-
-                        <p>
-                            Work as a team on various mobile projects such as Sharing Panel, Shop Quiz, and Guess the Winner. Using Typescript and ReactJS in web development, and project tested with react test library and jest.
-                        </p>
+                        <ul>
+                            <li>Worked on several mobile web projects like Sharing Panel, Shop Quiz, Rewards by Age, etc with main tech: TypeScript and ReactJS.</li>
+                            <li>Added unit tests to Guess the Winner Project from 0% to 90% code coverage, using React Testing Library & Jest</li>
+                        </ul>
                     </div>
                 </div> <!-- end column -->
                 <div class="column" data-aos="fade-up">
@@ -179,17 +180,20 @@
                         <div class="position__header">
                             <h6>
                                 <span class="position__co">Campaign.com</span><br/>
-                                <span class="position__pos">Junior Front-End Developer</span>
+                                <span class="position__pos">Front-End Developer</span>
                             </h6>
                             <div class="position__timeframe">
                                 Jun 21 - Jan 22
                             </div>
                         </div>
-
-                        <p>
-                            Migrated Campaign.com official website from PHP legacy code to NextJS.
-                            Responsible for the maintenance, development, and user requests on the official Campaign.com and internal websites.
-                        </p>
+                        <ul>
+                            <li>
+                                Migrated Campaign.com official website from PHP legacy code to NextJS.
+                            </li>
+                            <li>
+                                Responsible for the maintenance, development, and user requests on the official Campaign.com and internal websites.
+                            </li>
+                        </ul>
                     </div>
                 </div> <!-- end column -->
                 <div class="column" data-aos="fade-up">
@@ -203,11 +207,15 @@
                                 Jan 21 - Jun 21
                             </div>
                         </div>
-
-                        <p>
-                            Implementation of Analytics Pages on the Admin Dashboard for Data Processing of Campaign App Traffic.
-                            Created Campaign.com official website pages such as a sponsor page, an organizer page, and others that support multi-language and responsiveness with various devices.
-                        </p>
+                        <ul>
+                            <li>
+                                Implementation of Analytics Pages on the Admin Dashboard for Data Processing of Campaign App Traffic.
+                            </li>
+                            <li>
+                                Created Campaign.com official website pages such as a sponsor page, an organizer page, and others
+                                that support multi-language and responsiveness with various devices.
+                            </li>
+                        </ul>
                     </div>
                 </div> <!-- end column -->
                 <!-- <div class="column" data-aos="fade-up">
@@ -240,7 +248,7 @@
 
     <!-- services
     ================================================== -->
-    <section id="services" class="s-services target-section h-dark-bg">
+    <section id="expertise" class="s-services target-section h-dark-bg">
         
         <div class="row s-services__content">
 
@@ -269,7 +277,7 @@
                         </div>
                         <div class="services-list__item-body">
                             <p>
-                                Implement your designs into web development, which can be used on mobile, tablet, or pc. I've been in front-end web development for more than 1 year with various projects, technologies and teams.
+                                Implement your designs into web development, which can be used on mobile, tablet, or pc. I've been in front-end web development with various projects, technologies and teams.
                                 <br/>Tech Stack: ReactJS, Typescript, NextJS, PHP, HTML, CSS, Jest Testing
                             </p>
                         </div>
@@ -316,12 +324,12 @@
 
     <!-- portfolio
     ================================================== -->
-    <section id="portfolio" class="s-portfolio target-section">
+    <section id="portfolios" class="s-portfolio target-section">
 
         <div class="row s-portfolio__header">
             <div class="column large-6 medium-8 tab-full">
                 <div class="section-intro" data-num="03" data-aos="fade-up">
-                    <h3 class="subhead">Portfolio</h3>
+                    <h3 class="subhead">Portfolios</h3>
                     <h1 class="display-1">
                         A selection of recent projects I have worked on.
                     </h1>
@@ -546,7 +554,7 @@
 
     <!-- footer
     ================================================== -->
-    <footer class="s-footer h-dark-bg">
+    <footer class="s-footer h-dark-bg" id="contact-me">
         
         <div class="right-vert-line"></div>
 
